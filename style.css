@@ -181,3 +181,83 @@ header{
 
 
 }
+.sectionForm{
+  background-color: #f1fc59;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.form{
+  position: relative;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 10px;  
+}
+.formText{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input{
+  padding: 10px;
+  font-size: bold;
+  border: 2px solid rgba(0, 0, 0, 0.527);
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+  caret-color: grey; /* colorir a barra de digitação(cursor que fica piscando) */
+}
+
+.input::placeholder{
+  color: black;
+}
+.input:focus{
+  outline: none;
+  border: 2px solid black;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+select{
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.527);
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+select:focus{
+  outline: none;
+  border: 2px solid black;
+}
+select:hover{
+  background-color: #5dc1f0;
+}
+textarea{
+  resize: none;
+}
+footer {
+  background-color: #000000;
+  margin-top: 3px;
+}
+.footerimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.contatoH2{
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.contatoimages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  gap: 150px;
+}
