@@ -6,9 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="icon" type="imagem/jpg"  href="imagens/cem-manhuacu.jpg">
+    <link rel="icon" type="imagem/jpg" href="imagens/cem-manhuacu.jpg">
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
     <title>Instituto - CEM</title>
   </head>
  <body>
@@ -19,7 +18,6 @@
         <ul>
             <li><a class="menu" href= "#" >Início</a></li>
             <li><a class="menu" href= "#Informativo" >Informativo</a></li>
-            <li><a class="menu" href= "#Fotos" >Fotos</a></li>
             <li><a class="menu" href= "#Cursos" >Cursos</a></li>
             <li><a class="menu" href= "#Formulario" >Formulário</a></li>
             <li><a class="menu" href= "#Contato" >Contato</a></li>
@@ -51,91 +49,41 @@
           </div>
       </div>
     </section>
-   
-    <section class="sectionSlider" id="Fotos">
-      <div class="slides">
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <input type="radio" name="radio-btn" id="radio5">
-        <div class="imgSlide first" >
-          <img src="imagens/Pag1_page-0001.jpg" />
-        </div>
-        <div class="imgSlide" >
-          <img src="./imagens/Pag2_page-0001.jpg" />
-        </div>
-        <div class="imgSlide">
-          <img src="imagens/Pag3_page-0001.jpg">
-        </div>
-        <div class="imgSlide">
-          <img src="imagens/Pag4_page-0001.jpg" />
-        </div>
-        <div class="imgSlide">
-          <img src="imagens/Pag5_page-0001.jpg" />
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="btn-1"></div>
-        <div class="btn-2"></div>
-        <div class="btn-3"></div>
-        <div class="btn-4"></div>
-        <div class="btn-5"></div>
-      </div>
-      <div class="label-nav">
-        <label for="radio1" class="label-btn"></label>
-        <label for="radio2" class="label-btn"></label>
-        <label for="radio3" class="label-btn"></label>
-        <label for="radio4" class="label-btn"></label>
-        <label for="radio5" class="label-btn"></label>
-      </div>
-    </section>
     <section id="Cursos" class="containerCursos">
       <h2 class="cTitle">Nossos Cursos:</h2>
       <div class="contentCursos">
         <div>
           <div class="imgDiv">
-            <img class="cursosImg" src="imagens/EnsinoRegular_page-0001.jpg">
+            <img class="cursosImg" src="imagens/e.fundamental.jpg">
           </div>
           <div class="cursosBtnDiv">
             <a href="#">
-              <button class="cursosButton1">ACESSE JÁ</button>
+              <button class="cursosButton">Fundamental</button>
             </a>
           </div>
         </div>
         <div>
           <div class="imgDiv">
-            <img class="cursosImg" src="imagens/TrilhasDeFuturo_page-0001.jpg">
+            <img class="cursosImg" src="imagens/e.médio.jpeg">
           </div>
           <div class="cursosBtnDiv">
             <a href="https://google.com.br" target="_blank">
-              <button class="cursosButton2">ACESSE JÁ</button>
+              <button class="cursosButton">Médio</button>
             </a>
           </div>
         </div>
         <div>
           <div class="imgDiv">
-            <img class="cursosImg" src="imagens/UnoparManhuacu_page-0001.jpg">
+            <img class="cursosImg" src="imagens/e.superior">
           </div>
           <div class="cursosBtnDiv">
             <a href="https://google.com.br" target="_blank">
-              <button class="cursosButton3">ACESSE JÁ</button>
-            </a>
-          </div>
-         </div>
-         <div>
-          <div class="imgDiv">
-              <img class="cursosImg" src="imagens/InstitutoMix_page-0001.jpg">
-           </div>
-          <div class="cursosBtnDiv">
-            <a href="https://google.com.br" target="_blank">
-               <button class="cursosButton4">ACESSE JÁ</button>
+              <button class="cursosButton">Superior</button>
             </a>
           </div>
         </div>
       </div>
     </section>
-           
     <section class="sectionForm">
     <form id="Formulario" action="https://api.staticforms.xyz/submit" method="post" class="form">
       <input type="hidden" name="accessKey" value="1824e7d3-5c4b-40d9-a4b3-b9151beea9fa">
@@ -145,7 +93,7 @@
       <input class="input" type="text" name="name" required placeholder="Nome Completo" />
       <input class="input" type="number" name="phone" placeholder="Telefone ou Celular" />
       <input class="input" type="email" name="email" required placeholder="E-mail" />
-      <select class="opcoes">
+      <select>
             <option>Escola Cem</option>
             <option>Instituto Mix</option>
             <option>Trilhas do Futuro</option>
@@ -154,7 +102,7 @@
       <textarea class="input" name="message" placeholder="Digite aqui sua Mensagem" rows="5" maxlength="256"></textarea>
         <div>
           <input type="checkbox" name="subject" />
-          <span class="declaracao">Declaro que li e concordo com a Política de Privacidade, bem como com o tratamento dos meus dados para fins de prospecção dos serviços educacionais prestados pela instituição de ensino CEM.</span>
+          <span>Declaro que li e concordo com a Política de Privacidade, bem como com o tratamento dos meus dados para fins de prospecção dos serviços educacionais prestados pela instituição de ensino CEM.</span>
         </div>
       <button class="button" type="submit">Enviar</button>
     </form>
@@ -182,8 +130,6 @@
           </div>
       </div>
       <p class="contatoH2">CEM - Centro Educacional de Manhuaçu - todos direito reservados</p>
-      <a class="topo" href="#">Voltar ao topo</a>
   </footer>
- 
  </body>
-</html>
+                                                                                                                                                                                                                                                                       
